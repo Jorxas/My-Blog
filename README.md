@@ -1,35 +1,111 @@
-# My Website Structure:  (noch nicht fertig)
-The website will consist of four main pages, each with a unique focus:
+# Freizeitaktivitäten in Hessen - Website
 
-## 1. **Home Page**  
-The homepage will feature an eye-catching image showcasing the best activities in the Hessen region. Below the image, there will be a section highlighting the top activities, followed by a section for user comments and reviews. Additionally, social media links will be included for easy sharing and interaction.
+## Über das Projekt
 
-- **Featured Image**: A large banner image showing popular activities in Hessen.
-- **Best Activities Section**: A list of the most recommended activities, with short descriptions.
-- **User Reviews Section**: A space for users to leave their comments and share their experiences.
-- **Social Media Links**: Buttons linking to the website’s social media platforms for wider interaction and feedback.
+Diese Website präsentiert eine umfassende Übersicht über Freizeitaktivitäten in der Region Hessen. Das Projekt wurde mit HTML und CSS entwickelt und bietet Besuchern detaillierte Informationen über verschiedene Aktivitäten, von Outdoor-Sport bis hin zu kulturellen Veranstaltungen.
+
+## Projektstruktur
+
+### Hauptseiten
+
+- **`index.html`** - Startseite mit Highlights und Empfehlungen
+- **`blog.html`** - Übersicht aller verfügbaren Aktivitäten
+- **`apropos.html`** - Über uns Seite mit Informationen zum Projekt
+- **`faq.html`** - Häufig gestellte Fragen und Kontakt
+
+### Unterordner
+
+#### CSS-Dateien (`css/`)
+- `reset.css` - CSS Reset für konsistente Darstellung
+- `style.css` - Hauptstil-Datei
+- `index.css` - Spezifische Styles für die Startseite
+- `blog.css` - Styles für die Aktivitäten-Übersicht
+- `apropos.css` - Styles für die Über uns Seite
+- `faq.css` - Styles für die FAQ-Seite
+- `subseite.css` - Styles für die Detailseiten
+
+#### Bilder (`img/`)
+- **`indexbild/`** - Bilder für die Startseite
+- **`BlogBild/`** - Bilder für die Aktivitäten-Übersicht
+- **`aproposbild/`** - Bilder für die Über uns Seite
+
+#### Detailseiten (`subseite/`)
+Detaillierte Informationen zu jeder Aktivität:
+- `cinema.html` - Kino
+- `croisiere.html` - Bootsfahrten
+- `disko.html` - Diskotheken
+- `escapegame.html` - Escape Games
+- `jeux.html` - Spiele
+- `karaoke.html` - Karaoke
+- `karting.html` - Karting
+- `Konzert.html` - Konzerte
+- `museum.html` - Museen
+- `observatoire.html` - Observatorium
+- `paintball.html` - Paintball
+- `park.html` - Parks
+- `parkdattraction.html` - Freizeitparks
+- `restaurant.html` - Restaurants
+- `skate.html` - Skaten
+- `spa.html` - Spa & Wellness
+- `wandern.html` - Wandern
+
+## Funktionen
+
+### Startseite
+- Ansprechende Hero-Sektion mit Bildern aus Hessen
+- Empfohlene Aktivitäten
+- Benutzerbewertungen und Kommentare
+- Social Media Links
+
+### Aktivitäten-Übersicht
+- Bildergalerie aller verfügbaren Aktivitäten
+- Klickbare Links zu Detailseiten
+- Übersichtliche Darstellung der verschiedenen Kategorien
+
+### Detailseiten
+- Detaillierte Beschreibungen jeder Aktivität
+- Standortinformationen
+- Verbesserungsvorschläge
+- Bewertungssystem
+- Links zu offiziellen Websites
+- Hochwertige Bilder
+
+### Über uns
+- Informationen über das Projekt
+- Motivation und Hintergrund
+- Persönlicher Touch für Vertrauensbildung
+
+### FAQ
+- Häufig gestellte Fragen
+- Praktische Informationen
+- Kontaktmöglichkeiten
+
+## Technische Details
+
+- **Sprachen**: HTML5, CSS3
+- **Design**: Responsive Design für alle Geräte
+- **Struktur**: Modulare CSS-Architektur
+- **Bilder**: Optimierte Bilder für schnelle Ladezeiten
+
+## Installation und Verwendung
+
+1. Laden Sie alle Dateien in einen Webserver-Ordner
+2. Öffnen Sie `index.html` in einem Webbrowser
+3. Navigieren Sie durch die verschiedenen Seiten über das Menü
+
+## Zielgruppe
+
+- Touristen in Hessen
+- Einheimische auf der Suche nach Freizeitaktivitäten
+- Familien mit Kindern
+- Gruppen und Vereine
+- Alle Altersgruppen
+
+## Kontakt
+
+Für Fragen oder Anregungen zum Projekt stehen wir gerne zur Verfügung.
 
 ---
 
-## 2. **Activities Page**  
-This page will provide an overview of various activities in Hessen, each represented by an image grid. Each activity will be clickable and lead to a detailed page with more information, such as the location, potential improvements, and a rating feature.
+*Entwickelt mit ❤️ für die Region Hessen*
 
-- **Image Grid**: A visually appealing grid showcasing different activities, such as hiking, biking, sightseeing, etc.
-- **Clickable Links**: Each image will be clickable, leading to a page with more detailed information.
-- **Activity Details**: Each detailed page will include:
-  
-    ### Suggestions for improvement.
-  - An option for users to rate the activity.
-  - An image of the activity.
-  - A button that links to the official external website for more information or booking.
-
----
-
-## 3. **About Me Page**  
-This page will introduce the website creator, sharing information about their background, interests, and motivation for creating the website. It will help build trust with visitors by providing a personal touch.
-
----
-
-## 4. **FAQ Page**  
-The FAQ page will answer common questions visitors may have about the activities, the website, or the region of Hessen. It will provide useful and practical information in a clear and concise format.
-- **Frequently Asked Questions**: A list of questions and answers related to the activities in Hessen, booking process, website features, etc.
