@@ -107,5 +107,4 @@ Für Fragen oder Anregungen zum Projekt stehen wir gerne zur Verfügung.
 
 ---
 
-*Entwickelt mit ❤️ für die Region Hessen*
 
